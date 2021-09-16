@@ -1,0 +1,26 @@
+{
+  "kind": "column",
+  "name": "Calc",
+  "description": "Calculation of a literary mathematical formula.",
+  "author": "Manu.n",
+  "params": [
+    {
+      "name": "formule",
+      "displayName": "Formule",
+      "type": "string"
+    },
+    {
+      "name": "deg",
+      "displayName": "Rad or Deg",
+      "type": "string"
+    },
+    {
+      "name": "precision",
+      "displayName": "Precision",
+      "type": "number"
+    }
+  ],
+  "result": {
+    "type": "number"
+  }
+}

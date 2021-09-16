@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Glide Yes-Code</title>
+</head>
+<div>
+  <span id="result"></span>
+</div>
+<script src="function.js"></script>
+<script src="driver.js"></script>
+
+
+<script>
+   // TEST DEBUG !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   testDebug();
+
+async function testDebug() {
+let formule = { type: "string", value: "2+3" };
+let deg = { type: "string", value: "deg" };
+let precision = { type: "number", value: 8 };
+//  let date = { type: "date-time", value: new Date().toString() };
+let result = await window.function(formule, deg, precision);
+document.getElementById("result").innerHTML = result;
+
+}
+</script>
+</body>
+
+</html>
